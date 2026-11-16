@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Appointment | Pelvic Space</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow reveal slide-left">Book an appointment</span>
+      <h1 class="reveal slide-left d1">Let's find a time that works for you.</h1>
+      <p class="reveal slide-left d2">Book online in a few clicks, or send a request and we'll confirm your appointment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid cols-3">
+        <div class="card reveal slide-left d1"><div class="step-num">01</div><h3>Choose a time</h3><p>Pick a day and time in our online booking calendar.</p></div>
+        <div class="card reveal slide-left d2"><div class="step-num">02</div><h3>Share your details</h3><p>Tell us a little about what you're dealing with.</p></div>
+        <div class="card reveal slide-right d3"><div class="step-num">03</div><h3>Get confirmed</h3><p>You'll receive confirmation and any forms before your visit.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container split">
+      <div class="reveal slide-left">
+        <span class="eyebrow">Fastest option</span>
+        <h2>Book online now</h2>
+        <p>Our online booking calendar shows available times in real time. Choose a service, pick a slot and you're done.</p>
+        <div class="btn-row">
+          <a class="btn" data-book href="#">Open booking calendar</a>
+        </div>
+        <p style="margin-top:2rem">Prefer to talk first? Call or text <a href="tel:+1XXXXXXXXXX">[Phone number]</a>.</p>
+      </div>
+
+      <div class="card reveal slide-right d1">
+        <h3>Or send a request</h3>
+        <p>Fill in the form and we'll reply to confirm your appointment.</p>
+        <form class="form" id="appointment-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel">
+            </div>
+            <div class="field">
+              <label for="service">Service</label>
+              <select id="service" name="service">
+                <option>Pelvic Health</option>
+                <option>Pregnancy &amp; Postpartum</option>
+                <option>Sports Physiotherapy</option>
+                <option>Small Group Class</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="time">Preferred day and time</label>
+            <input id="time" name="time" type="text" placeholder="e.g. Weekday mornings">
+          </div>
+          <div class="field">
+            <label for="message">Anything you'd like us to know?</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Send request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal">
+        <span class="eyebrow">Before your visit</span>
+        <h2>What to bring</h2>
+      </div>
+      <div class="grid cols-3">
+        <div class="card reveal slide-left d1"><h3>Comfortable clothing</h3><p>Wear something you can move in easily.</p></div>
+        <div class="card reveal slide-left d2"><h3>Your health information</h3><p>Any referrals, recent test results or medication list.</p></div>
+        <div class="card reveal slide-right d3"><h3>Questions</h3><p>Write down what you want to focus on so we can cover it together.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
